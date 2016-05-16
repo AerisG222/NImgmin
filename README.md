@@ -3,7 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/NImgmin.svg)](https://www.nuget.org/packages/NImgmin/)
 [![Coverity Scan](https://img.shields.io/coverity/scan/7993.svg)](https://scan.coverity.com/projects/aerisg222-nimgmin)
 
-#NDCRaw
+#NImgmin
 
 A .Net library to wrap the functionality of imgmin.
 
@@ -32,8 +32,7 @@ namespace Test
 ```
 
 - View the tests for more examples
-- You also might want to check out NMagickWand which can then help
-  working with the generated file from NDCRaw!
+
 
 ## Contributing
 I'm happy to accept pull requests.  By submitting a pull request, you
