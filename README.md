@@ -7,9 +7,6 @@
 
 A .Net library to wrap the functionality of imgmin.
 
-## Motivation
-A small wrapper around imgmin.
-
 ## Using
 - Follow process to build imgmin here: https://github.com/rflynn/imgmin
 - Add a reference to NImgmin in your project.json
