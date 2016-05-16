@@ -60,8 +60,6 @@ namespace NImgmin
                     
                     if(matches.Count > 0)
                     {
-                        Console.WriteLine("before");
-                        
                         _statsBefore = BuildStats(matches[0]);
                         continue;
                     }
