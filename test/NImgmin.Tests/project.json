@@ -1,7 +1,7 @@
 {
     "dependencies": {
         "dotnet-test-xunit": "1.0.0-rc2-*",
-        "NImgmin": "0.1.0",
+        "NImgmin": "0.2.0",
         "xunit": "2.2.0-*"
     },
     "testRunner": "xunit",
