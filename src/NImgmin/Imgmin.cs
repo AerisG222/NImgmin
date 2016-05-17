@@ -1,6 +1,7 @@
 using System;
-using System.IO;
+using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,7 +44,16 @@ namespace NImgmin
             using(var process = new Process())
             {
                 process.StartInfo = Options.GetStartInfo(srcPath, destPath);
-                process.Start();
+                
+                try
+                {
+                    process.Start();
+                }
+                catch (Win32Exception ex)
+                {
+                    throw new Exception("Error when trying to start the imgmin process.  Please make sure imgmin is installed, and its path is properly specified in the options.", ex);
+                }
+                
                 process.WaitForExit();
                 
                 var result = new ImgminResult 
