@@ -1,9 +1,9 @@
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/AerisG222/NImgmin/blob/master/LICENSE.md)
-[![NuGet](https://img.shields.io/nuget/dt/NImgmin.svg)](https://www.nuget.org/packages/NImgmin/)
-[![NuGet](https://img.shields.io/nuget/v/NImgmin.svg)](https://www.nuget.org/packages/NImgmin/)
-[![Coverity Scan](https://img.shields.io/coverity/scan/7993.svg)](https://scan.coverity.com/projects/aerisg222-nimgmin)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AerisG222/NImgmin/blob/master/LICENSE.md)
+[![NuGet](https://buildstats.info/nuget/NImgmin)](https://www.nuget.org/packages/NImgmin/)
+[![Travis](https://img.shields.io/travis/AerisG222/NImgmin.svg?maxAge=2592000)](https://travis-ci.org/AerisG222/NImgmin)
+[![Coverity Scan](https://img.shields.io/coverity/scan/10073.svg)](https://scan.coverity.com/projects/aerisg222-nimgmin)
 
-#NImgmin
+# NImgmin
 
 A .Net library to wrap the functionality of imgmin.
 
